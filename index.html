@@ -369,8 +369,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>Welcome to Suraj World</h1>
-            <p class="tagline">Premium Educational Resources for Engineering Students</p>
+            <h1>Welcome to backlock_2024</h1>
+            <p class="tagline">Resources for Mechanical Engineering Students</p>
         </header>
         
         <div class="main-content">
@@ -382,11 +382,7 @@
                     <h2 class="subject-title">Basic Engg. Mathematics</h2>
                 </div>
                 <p class="subject-desc">Algebra, Differential Calculus, Coordinate Geometry, Probability and Statistics</p>
-                <ul class="resource-list">
-                    <li class="resource-item"><i class="fas fa-tasks"></i> Assignments</li>
-                    <li class="resource-item"><i class="fas fa-flask"></i> Practicals</li>
-                    <li class="resource-item"><i class="fas fa-users"></i> Team work</li>
-                </ul>
+                
             </div>
             
             <div class="subject-card" onclick="openSubject('chemistry')">
@@ -397,11 +393,7 @@
                     <h2 class="subject-title">Applied Chemistry -A</h2>
                 </div>
                 <p class="subject-desc">Atomic Structure, Water, Engineering Materials, Fuels, Electrochemistry</p>
-                <ul class="resource-list">
-                    <li class="resource-item"><i class="fas fa-tasks"></i> Assignments</li>
-                    <li class="resource-item"><i class="fas fa-flask"></i> Practicals</li>
-                    <li class="resource-item"><i class="fas fa-users"></i> Team work</li>
-                </ul>
+                
             </div>
             
             <div class="subject-card" onclick="openSubject('python')">
@@ -412,11 +404,7 @@
                     <h2 class="subject-title">Python Programming</h2>
                 </div>
                 <p class="subject-desc">Python syntax, Data Structures, OOP, Exception Handling, File Operations</p>
-                <ul class="resource-list">
-                    <li class="resource-item"><i class="fas fa-tasks"></i> Assignments</li>
-                    <li class="resource-item"><i class="fas fa-flask"></i> Practicals</li>
-                    <li class="resource-item"><i class="fas fa-users"></i> Team work</li>
-                </ul>
+               
             </div>
             
             <div class="subject-card" onclick="openSubject('english')">
@@ -427,11 +415,7 @@
                     <h2 class="subject-title">Communication Skills (English)</h2>
                 </div>
                 <p class="subject-desc">Communication Types, Reading Comprehension, Vocabulary, Professional Writing</p>
-                <ul class="resource-list">
-                    <li class="resource-item"><i class="fas fa-tasks"></i> Assignments</li>
-                    <li class="resource-item"><i class="fas fa-microphone"></i> Practice</li>
-                    <li class="resource-item"><i class="fas fa-users"></i> Teamwork</li>
-                </ul>
+               
             </div>
             
             <div class="subject-card" onclick="openSubject('drawing')">
@@ -442,11 +426,7 @@
                     <h2 class="subject-title">Engineering Drawing</h2>
                 </div>
                 <p class="subject-desc">Orthographic Projections, Isometric Views, Surface Development, Freehand Sketches</p>
-                <ul class="resource-list">
-                    <li class="resource-item"><i class="fas fa-tasks"></i> Assignments</li>
-                    <li class="resource-item"><i class="fas fa-drafting-compass"></i> Drawing Sheets</li>
-                    <li class="resource-item"><i class="fas fa-users"></i> Team work</li>
-                </ul>
+               
             </div>
             
             <div class="subject-card" onclick="openSubject('environment')">
@@ -457,11 +437,7 @@
                     <h2 class="subject-title">Environmental Education & Sustainable Development</h2>
                 </div>
                 <p class="subject-desc">Ecosystems, Pollution, Renewable Energy, Climate Change, Environmental Legislation</p>
-                <ul class="resource-list">
-                    <li class="resource-item"><i class="fas fa-tasks"></i> Assignments</li>
-                    <li class="resource-item"><i class="fas fa-flask"></i> Practicals</li>
-                    <li class="resource-item"><i class="fas fa-users"></i> Team work</li>
-                </ul>
+                
             </div>
         </div>
         
@@ -557,14 +533,8 @@
                 "Unit 4: Isometric Projection",
                 "Unit 5: Development of Surfaces",
                 "Unit 6: Free Hand Sketches of Engineering Elements"
-            ],
-            environment: [
-                "Unit 1: Ecosystem",
-                "Unit 2: Air & Water Pollution",
-                "Unit 3: Sustainability & Renewable Sources of Energy",
-                "Unit 4: Climate Change and Sustainable Development",
-                "Unit 5: Environmental legislation and Sustainable Building Practices"
             ]
+            
         };
         
         // Map subject values to display names
@@ -574,14 +544,13 @@
             python: "Python Programming",
             english: "Communication Skills (English)",
             drawing: "Engineering Drawing",
-            environment: "Environmental Education and Sustainable Development"
+           
         };
          // PDF URLs for all subjects and units
         const pdfUrls = {
             math: {
-                assignment: "",
-                practical: "",
-                teamwork: "",
+                
+                
                 theory: {
                     "Unit 1: Algebra Determinant": "",
                     "Unit 2: Differential Calculus": "",
@@ -591,9 +560,8 @@
                 }
             },
             chemistry: {
-                assignment: "25. Mechanical Engineering.pdf",
-                practical: "25. Mechanical Engineering.pdf",
-                teamwork: "25. Mechanical Engineering.pdf",
+               importantquestion: "",
+                
                 theory: {
                     "Unit 1: Atomic Structure and Chemical Bonding": "",
                     "Unit 2: Water": "",
@@ -603,9 +571,8 @@
                 }
             },
             python: {
-                assignment: "25. Mechanical Engineering.pdf",
-                practical: "25. Mechanical Engineering.pdf",
-                teamwork: "25. Mechanical Engineering.pdf",
+                importantquestion: "25. Mechanical Engineering.pdf",
+                
                 theory: {
                     "Unit 1: Basics of Python Programming syntax": "",
                     "Unit 2: Conditional and Iterative statements": "",
@@ -616,9 +583,7 @@
                 }
             },
             english: {
-                assignment: "25. Mechanical Engineering.pdf",
-                practical: "25. Mechanical Engineering.pdf",
-                teamwork: "25. Mechanical Engineering.pdf",
+                importantquestion: "25. Mechanical Engineering.pdf",
                 theory: {
                     "Unit 1: Communication":"https://1drv.ms/b/c/441d9e96836f81b0/Edbm-7isRhFHq_C1YCg9y7QBka8xvxjupFCbZGXmesWNiA?e=wcidCb",
                     "Unit 2: Types of Communication":"",
@@ -628,9 +593,7 @@
                 }
             },
             drawing: {
-                assignment: "25. Mechanical Engineering.pdf",
-                practical: "25. Mechanical Engineering.pdf",
-                teamwork: "25. Mechanical Engineering.pdf",
+               importantquestion: "25. Mechanical Engineering.pdf",
                 theory: {
                     "Unit 1: Basic Elements of Drawing": "",
                     "Unit 2: Elements of Orthographic Projections": "",
@@ -639,19 +602,8 @@
                     "Unit 5: Development of Surfaces": "",
                     "Unit 6: Free Hand Sketches of Engineering Elements": ""
                 }
-            },
-            environment: {
-                assignment: "25. Mechanical Engineering.pdf",
-                practical: "25. Mechanical Engineering.pdf",
-                teamwork: "25. Mechanical Engineering.pdf",
-                theory: {
-                    "Unit 1: Ecosystem": "",
-                    "Unit 2: Air & Water Pollution": "",
-                    "Unit 3: Sustainability & Renewable Sources of Energy": "",
-                    "Unit 4: Climate Change and Sustainable Development": "",
-                    "Unit 5: Environmental legislation and Sustainable Building Practices": ""
-                }
             }
+            
         };
         
         
@@ -799,6 +751,7 @@
 </body>
 
 </html>
+
 
 
 
